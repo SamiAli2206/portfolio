@@ -11506,8 +11506,8 @@ pre .code {
   position: relative;
   height: 80vh;
   min-height: 600px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7)), url(../imgs/18.jpeg);
-  background-image: linear-gradient(to top, rgba(10, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/18.jpeg);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7)), url(18.jpeg);
+  background-image: linear-gradient(to top, rgba(10, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(18.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11533,11 +11533,11 @@ pre .code {
 
 .header .header-content .header-subtitle {
   font-weight: 200;
-  font-size: calc(20px + (45 - 20) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(10px + (45 - 20) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .header .header-content .header-title {
-  font-size: calc(40px + (120 - 40) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(20px + (100 - 30) * ((100vw - 300px) / (1600 - 300)));
   font-weight: bold;
   line-height: .7;
   margin-bottom: 25px;
